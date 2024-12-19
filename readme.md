@@ -21,7 +21,7 @@ To set up the Android part of the project:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/clipy.git
+    git clone https://github.com/aryanpnd/clipy-client-android
     cd clipy
     ```
 
