@@ -1,10 +1,10 @@
 # Clipy Android
 
-Clipy is a clipboard synchronization app that allows you to sync clipboard data between your Android device and a server. It runs as a background service that listens for clipboard changes, and you can also share text via other apps (e.g., browser, email) directly to the server without opening the app.
+Clipy is a clipboard synchronization app that allows you to sync clipboard data between your Android device and a server. It runs as a background service that listens for clipboard changes, and you can also share text and pictures via other apps (e.g., browser, email) directly to the server without opening the app.
 
 ## Features
 - Clipboard synchronization between Android and server via WebSocket.
-- Share text from any app and send it to the server.
+- Share text and pictures from any app and send it to the server.
 - Notifications to manage service status (pause, resume, stop).
 - Works as a background service even when the app isn't open.
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text to send"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/disabled"
+            android:minLines="3"
+            android:maxLines="5"
+            android:gravity="top|start"
+            android:background="@drawable/rounded_edit_text"
+            android:textColor="@color/gray"
+            android:padding="24dp"
+            />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Send"
+            android:background="@drawable/rounded_button_green"/>
+
+        <Button
+            android:id="@+id/pasteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#2196F3"
+            android:text="Paste from Clipboard"
+            android:background="@drawable/rounded_button_blue"/>
+    </LinearLayout>
+</FrameLayout>

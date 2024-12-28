@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedDialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_rounded_background</item>
+        <item name="android:windowNoTitle">true</item> <!-- Remove title bar -->
+        <item name="android:backgroundDimEnabled">false</item> <!-- Dim background when dialog shows -->
+        <item name="android:windowMinWidthMajor">80%</item> <!-- Set dialog width -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowMinWidthMinor">80%</item> <!-- Set dialog width -->
+    </style>
+    <style name="RoundedDialogThemeMain" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_rounded_background</item>
+        <item name="android:windowNoTitle">true</item> <!-- Remove title bar -->
+        <item name="windowActionBar">false</item>
+        <item name="android:backgroundDimEnabled">false</item> <!-- Dim background when dialog shows -->
+        <item name="android:windowMinWidthMajor">80%</item> <!-- Set dialog width -->
+        <item name="android:windowMinWidthMinor">80%</item> <!-- Set dialog width -->
+    </style>
+    <style name="RoundedDialogThemeTransparent" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_rounded_background_transparent</item>
+        <item name="android:windowNoTitle">true</item> <!-- Remove title bar -->
+        <item name="windowActionBar">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@drawable/rounded_white_background</item>
+    </style>
+
+</resources>
